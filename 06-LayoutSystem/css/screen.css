@@ -189,15 +189,126 @@ a:focus {
   margin-right: auto;
   max-width: 90em;
 }
+/*
+    Objects: Layout
+    ---
+    The layout object provides us with a column-style layout system. This object
+    contains the basic structural elements, but classes should be complemented
+    with width utilities
+*/
+
+.o-layout {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.o-layout__item {
+  width: 100%;
+}
+
+/* gutter modifiers, these affect o-layout__item too */
+
+.o-layout--gutter {
+  padding: 0 -12px;
+}
+
+.o-layout--gutter > .o-layout__item {
+  padding: 0 12px;
+}
+
+.o-layout--gutter-sm {
+  padding: 0 -6px;
+}
+
+.o-layout--gutter-sm > .o-layout__item {
+  padding: 0 6px;
+}
+
+.o-layout--gutter-lg {
+  padding: 0 -24px;
+}
+
+.o-layout--gutter-lg > .o-layout__item {
+  padding: 0 24px;
+}
+
+/* reverse horizontal row modifier */
+
+.o-layout--row-reverse {
+}
+
+/* Horizontal alignment modifiers*/
+
+.o-layout--justify-start {
+}
+
+.o-layout--justify-end {
+}
+
+.o-layout--justify-center {
+}
+
+.o-layout--justify-space-around {
+}
+
+.o-layout--justify-space-between {
+}
+
+/* Vertical item alignment modifiers */
+
+.o-layout--align-start {
+}
+
+.o-layout--align-end {
+}
+
+.o-layout--align-center {
+}
+
+.o-layout--align-baseline {
+}
+
+/* Vertical content alignment modifiers. Only work if there is one than one flex item */
+
+.o-layout--align-content-start {
+}
+
+.o-layout--align-content-end {
+}
+
+.o-layout--align-content-center {
+}
+
+.o-layout--align-content-space-around {
+}
+
+.o-layout--align-content-space-between {
+}
+
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
 
 /*
-    Component: Component name
+    Component: layout block
     ---
-    Component description
+    A small component to demonstrate the layout items
 */
+
+.c-layout-block {
+  background-color: LightGrey;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.c-layout-block--ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
 /*------------------------------------*\
   #UTILITIES
@@ -231,6 +342,70 @@ a:focus {
 .u-max-width-none {
   max-width: none;
 }
+
+/*
+    Utility: Widths
+    ---
+    Utility classes to put specific widths onto elements
+    Will be mostly used on o-layout__item
+*/
+
+.u-width-auto {
+}
+
+.u-1-of-2 {
+}
+
+.u-1-of-3 {
+}
+
+.u-2-of-3 {
+}
+
+.u-1-of-4 {
+}
+
+.u-3-of-4 {
+}
+
+.u-1-of-5 {
+}
+
+.u-2-of-5 {
+}
+
+.u-3-of-5 {
+}
+
+.u-4-of-5 {
+}
+
+.u-1-of-6 {
+}
+
+.u-5-of-6 {
+}
+
+@media (min-width: 576px) {
+  .u-1-of-2-bp1 {
+  }
+}
+
+@media (min-width: 768px) {
+  .u-1-of-2-bp2 {
+  }
+}
+
+@media (min-width: 992px) {
+  .u-1-of-2-bp3 {
+  }
+}
+
+@media (min-width: 1200px) {
+  .u-1-of-2-bp4 {
+  }
+}
+
 /*------------------------------------*\
   #MEDIA
 \*------------------------------------*/
