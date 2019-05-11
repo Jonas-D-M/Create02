@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0a257d;
+      }
+
+      .cls-2 {
+        fill: #033aa7;
+      }
+
+      .cls-3 {
+        fill: #0053fb;
+      }
+
+      .cls-4 {
+        fill: #1195f7;
+      }
+
+      .cls-5 {
+        fill: #c2e0ff;
+      }
+
+      .cls-6 {
+        fill: #dbedff;
+      }
+
+      .cls-7 {
+        fill: #8ec7ff;
+      }
+    </style>
+  </defs>
+  <g id="Favicon" transform="translate(-46 -32)">
+    <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-1" width="86.667" height="86.667" transform="translate(46 32)"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-2" width="86.667" height="86.667" transform="translate(46 118.667)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-3" width="86.667" height="86.667" transform="translate(46 205.333)"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-4" width="86.667" height="86.667" transform="translate(132.667 118.667)"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-5" width="86.667" height="86.667" transform="translate(219.333 118.667)"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-6" width="86.667" height="86.667" transform="translate(219.333 205.333)"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-7" width="86.667" height="86.667" transform="translate(219.333 32)"/>
+  </g>
+</svg>

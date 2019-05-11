@@ -1,0 +1,28 @@
+/*
+    Component: Nav
+    ---
+    Main navigation of the site
+*/
+
+.c-nav {
+}
+
+.c-nav__link {
+}
+
+.c-nav__link,
+.c-nav__link:visited,
+.c-nav__link:active {
+}
+
+.c-nav__link:hover,
+.c-nav__link:focus {
+}
+
+@media (min-width: 768px) {
+    .c-nav__list {
+    }
+
+    .c-nav__link {
+    }
+}

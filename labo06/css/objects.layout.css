@@ -1,0 +1,63 @@
+/*
+    Objects: Layout
+    ---
+    The layout object provides us with a column-style layout system. This object
+    contains the basic structural elements, but classes should be complemented
+    with width utilities
+*/
+
+.o-layout {}
+
+    .o-layout__item {}
+
+/* gutter modifiers, these affect o-layout__item too */
+
+.o-layout--gutter {}
+
+.o-layout--gutter > .o-layout__item {}
+
+.o-layout--gutter-sm {}
+
+.o-layout--gutter-sm > .o-layout__item {}
+
+.o-layout--gutter-lg {}
+
+.o-layout--gutter-lg > .o-layout__item {}
+
+/* reverse horizontal row modifier */
+
+.o-layout--row-reverse {}
+
+/* Horizontal alignment modifiers*/
+
+.o-layout--justify-start {}
+
+.o-layout--justify-end {}
+
+.o-layout--justify-center {}
+
+.o-layout--justify-space-around {}
+
+.o-layout--justify-space-between {}
+
+/* Vertical item alignment modifiers */
+
+.o-layout--align-start {}
+
+.o-layout--align-end {}
+
+.o-layout--align-center {}
+
+.o-layout--align-baseline {}
+
+/* Vertical content alignment modifiers. Only work if there is one than one flex item */
+
+.o-layout--align-content-start {}
+
+.o-layout--align-content-end {}
+
+.o-layout--align-content-center {}
+
+.o-layout--align-content-space-around {}
+
+.o-layout--align-content-space-between {}
