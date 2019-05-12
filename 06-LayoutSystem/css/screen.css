@@ -169,7 +169,7 @@ a:focus {
 /* 
 	Object: Row
 	---
-	Creates a horizontal row that stretches the viewport and adds padding around children
+	Creates a row that stretches the viewport and adds padding around children
 */
 .o-row {
   overflow: auto;
@@ -271,7 +271,9 @@ a:focus {
 .o-layout--justify-space-between {
   justify-content: space-between;
 }
-.o-layout--justify-space
+.o-layout--justify-space-evenly {
+  justify-content: space-evenly;
+}
 
 /* Vertical item alignment modifiers */
 
