@@ -269,7 +269,6 @@ a:focus {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 79.5em; /* 90 * 16px = 1440px */
 }
 
 /*
